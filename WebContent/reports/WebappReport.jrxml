@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="WebappReport" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6c5f0516-55a6-4a5c-9e00-74b13459e98d">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MyDataAdapter "/>
+	<subDataset name="Dataset1" uuid="bfb9b03d-4161-422a-a0b0-959a02bc9653">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<parameter name="cargoowner" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="228" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="5" width="800" height="211" uuid="04cea6b0-4532-4883-bab1-9382c09e4824"/>
+			</rectangle>
+			<line>
+				<reportElement x="0" y="40" width="800" height="1" uuid="fb4e44b4-bc18-45e0-b2e1-317cc6f8bbf6"/>
+			</line>
+			<line>
+				<reportElement x="0" y="80" width="800" height="1" uuid="6361a360-a58f-470d-b3b3-8e6aec553f34"/>
+			</line>
+			<line>
+				<reportElement x="0" y="120" width="800" height="1" uuid="bc2152c1-f7e4-4b85-a256-978b0cae24fe"/>
+			</line>
+			<line>
+				<reportElement x="1" y="170" width="800" height="1" uuid="2e231dc2-f92d-4237-acb1-14fa769f539a"/>
+			</line>
+			<line>
+				<reportElement x="180" y="5" width="1" height="75" uuid="8f88a385-6c3d-4586-af03-09e32da0362a"/>
+			</line>
+			<line>
+				<reportElement x="380" y="5" width="1" height="115" uuid="721835db-36df-47f0-811f-a3e5c04cea98"/>
+			</line>
+			<line>
+				<reportElement x="580" y="5" width="1" height="76" uuid="a1cbc0b7-e31d-4f81-83d3-82a12495d716"/>
+			</line>
+			<staticText>
+				<reportElement x="8" y="14" width="69" height="15" uuid="1eb86166-9bbc-4f39-916e-cdcc6760c170"/>
+				<text><![CDATA[托运人：]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="80" y="14" width="100" height="15" uuid="1e9b2275-c276-48df-b666-5f4f4d26f93a"/>
+				<textFieldExpression><![CDATA[$P{cargoowner}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
