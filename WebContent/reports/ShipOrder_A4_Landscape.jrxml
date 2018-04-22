@@ -60,33 +60,33 @@
 	<columnHeader>
 		<band height="65" splitType="Stretch">
 			<image scaleImage="FillFrame" hyperlinkType="Reference">
-				<reportElement x="14" y="0" width="114" height="41" uuid="16f1ec33-4e17-4265-a731-dcb7d324813f"/>
+				<reportElement x="15" y="0" width="114" height="41" uuid="16f1ec33-4e17-4265-a731-dcb7d324813f"/>
 				<graphicElement fill="Solid"/>
-				<imageExpression><![CDATA["http://47.104.158.49/images/kaida56_logo.png"]]></imageExpression>
+				<imageExpression><![CDATA["https://www.tongdagufen.cn/images/kaida56_logo.png"]]></imageExpression>
 			</image>
 			<textField isBlankWhenNull="true">
-				<reportElement x="183" y="-10" width="365" height="30" uuid="a5c17399-eeb7-4158-94a6-7fc068bbee0b"/>
+				<reportElement x="184" y="-10" width="365" height="30" uuid="a5c17399-eeb7-4158-94a6-7fc068bbee0b"/>
 				<textElement textAlignment="Center">
 					<font fontName="Microsoft YaHei" size="16"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item1}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="574" y="25" width="63" height="15" uuid="d4b0067e-7cc9-46bb-bad2-68658c9cc8a7"/>
+				<reportElement x="575" y="25" width="63" height="15" uuid="d4b0067e-7cc9-46bb-bad2-68658c9cc8a7"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[合同编号：]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement x="183" y="12" width="365" height="30" uuid="842f181b-4007-4a6a-9b1c-781b0f413087"/>
+				<reportElement x="184" y="12" width="365" height="30" uuid="842f181b-4007-4a6a-9b1c-781b0f413087"/>
 				<textElement textAlignment="Center">
 					<font fontName="Microsoft YaHei" size="16"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item2}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="637" y="25" width="158" height="15" uuid="cb7f9416-4645-4583-b3c2-85fa05e9b590"/>
+				<reportElement x="638" y="25" width="158" height="15" uuid="cb7f9416-4645-4583-b3c2-85fa05e9b590"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
@@ -97,515 +97,515 @@
 	<detail>
 		<band height="445" splitType="Stretch">
 			<rectangle radius="1">
-				<reportElement x="4" y="-20" width="794" height="440" uuid="04cea6b0-4532-4883-bab1-9382c09e4824"/>
+				<reportElement x="5" y="-20" width="794" height="440" uuid="04cea6b0-4532-4883-bab1-9382c09e4824"/>
 				<graphicElement>
 					<pen lineWidth="1.0" lineStyle="Solid"/>
 				</graphicElement>
 			</rectangle>
 			<line>
-				<reportElement x="4" y="15" width="794" height="1" uuid="fb4e44b4-bc18-45e0-b2e1-317cc6f8bbf6"/>
+				<reportElement x="5" y="15" width="794" height="1" uuid="fb4e44b4-bc18-45e0-b2e1-317cc6f8bbf6"/>
 				<graphicElement>
 					<pen lineWidth="1.0" lineStyle="Solid"/>
 				</graphicElement>
 			</line>
 			<line>
-				<reportElement x="4" y="55" width="794" height="1" uuid="6361a360-a58f-470d-b3b3-8e6aec553f34"/>
+				<reportElement x="5" y="55" width="794" height="1" uuid="6361a360-a58f-470d-b3b3-8e6aec553f34"/>
 			</line>
 			<line>
-				<reportElement x="4" y="95" width="794" height="1" uuid="bc2152c1-f7e4-4b85-a256-978b0cae24fe"/>
+				<reportElement x="5" y="95" width="794" height="1" uuid="bc2152c1-f7e4-4b85-a256-978b0cae24fe"/>
 			</line>
 			<line>
-				<reportElement x="5" y="132" width="794" height="1" uuid="2e231dc2-f92d-4237-acb1-14fa769f539a"/>
+				<reportElement x="6" y="132" width="794" height="1" uuid="2e231dc2-f92d-4237-acb1-14fa769f539a"/>
 			</line>
 			<line>
-				<reportElement x="184" y="-20" width="1" height="75" uuid="8f88a385-6c3d-4586-af03-09e32da0362a"/>
+				<reportElement x="185" y="-20" width="1" height="75" uuid="8f88a385-6c3d-4586-af03-09e32da0362a"/>
 			</line>
 			<line>
-				<reportElement x="368" y="-20" width="2" height="195" uuid="721835db-36df-47f0-811f-a3e5c04cea98"/>
+				<reportElement x="369" y="-20" width="2" height="195" uuid="721835db-36df-47f0-811f-a3e5c04cea98"/>
 			</line>
 			<line>
-				<reportElement x="608" y="-21" width="1" height="76" uuid="a1cbc0b7-e31d-4f81-83d3-82a12495d716"/>
+				<reportElement x="609" y="-21" width="1" height="76" uuid="a1cbc0b7-e31d-4f81-83d3-82a12495d716"/>
 			</line>
 			<staticText>
-				<reportElement x="12" y="-9" width="66" height="15" uuid="1eb86166-9bbc-4f39-916e-cdcc6760c170"/>
+				<reportElement x="13" y="-9" width="66" height="15" uuid="1eb86166-9bbc-4f39-916e-cdcc6760c170"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[托运人:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="81" y="-9" width="100" height="15" uuid="1e9b2275-c276-48df-b666-5f4f4d26f93a"/>
+				<reportElement x="82" y="-9" width="100" height="15" uuid="1e9b2275-c276-48df-b666-5f4f4d26f93a"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item4}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="189" y="-9" width="32" height="15" uuid="ab5f9119-eae4-445c-b044-088fc53826f2"/>
+				<reportElement x="190" y="-9" width="32" height="15" uuid="ab5f9119-eae4-445c-b044-088fc53826f2"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[电话:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="221" y="-9" width="140" height="15" uuid="7dfd47a0-c33f-406b-8705-1dfdd2d0d846"/>
+				<reportElement x="222" y="-9" width="140" height="15" uuid="7dfd47a0-c33f-406b-8705-1dfdd2d0d846"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item5}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="377" y="-9" width="60" height="15" uuid="59350769-7d4d-4ea9-98b2-80fa7988a615"/>
+				<reportElement x="378" y="-9" width="60" height="15" uuid="59350769-7d4d-4ea9-98b2-80fa7988a615"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[货主(单位):]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="437" y="-9" width="161" height="15" uuid="0339afe6-983e-4933-8f10-05c681e4c15d"/>
+				<reportElement x="438" y="-9" width="161" height="15" uuid="0339afe6-983e-4933-8f10-05c681e4c15d"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item6}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="649" y="-9" width="140" height="15" uuid="40dbfd76-b313-42c7-88f7-afddf2210f76"/>
+				<reportElement x="650" y="-9" width="140" height="15" uuid="40dbfd76-b313-42c7-88f7-afddf2210f76"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item7}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="617" y="-9" width="32" height="15" uuid="007143cf-a84e-4209-8ebd-1aeb17b99bcf"/>
+				<reportElement x="618" y="-9" width="32" height="15" uuid="007143cf-a84e-4209-8ebd-1aeb17b99bcf"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[电话:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="12" y="27" width="66" height="15" uuid="98677302-6a3f-436d-8e3f-3c9c85711fe5"/>
+				<reportElement x="13" y="27" width="66" height="15" uuid="98677302-6a3f-436d-8e3f-3c9c85711fe5"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[承运人(车主):]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="81" y="27" width="100" height="15" uuid="d8fe7835-0c4a-4bef-8e67-0e5b54c6e76b"/>
+				<reportElement x="82" y="27" width="100" height="15" uuid="d8fe7835-0c4a-4bef-8e67-0e5b54c6e76b"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item8}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="189" y="27" width="32" height="15" uuid="5020604f-76d0-4fe5-a542-6df7457a3fc0"/>
+				<reportElement x="190" y="27" width="32" height="15" uuid="5020604f-76d0-4fe5-a542-6df7457a3fc0"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[车号:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="221" y="27" width="140" height="15" uuid="41efdaed-e6dc-40de-95d7-13fc01e73e72"/>
+				<reportElement x="222" y="27" width="140" height="15" uuid="41efdaed-e6dc-40de-95d7-13fc01e73e72"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item9}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="377" y="27" width="60" height="15" uuid="c1ec8558-a9f1-4f51-9a4b-c64cc8369fe1"/>
+				<reportElement x="378" y="27" width="60" height="15" uuid="c1ec8558-a9f1-4f51-9a4b-c64cc8369fe1"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[驾驶证号:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="437" y="27" width="161" height="15" uuid="7b39bbea-4990-4009-b6ac-ce68cf1eb917"/>
+				<reportElement x="438" y="27" width="161" height="15" uuid="7b39bbea-4990-4009-b6ac-ce68cf1eb917"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item10}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="617" y="27" width="32" height="15" uuid="22fdfa97-0364-4997-8d23-7d8def26e2c3"/>
+				<reportElement x="618" y="27" width="32" height="15" uuid="22fdfa97-0364-4997-8d23-7d8def26e2c3"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[电话:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="649" y="27" width="140" height="15" uuid="400adfa3-129b-4618-9a80-ee28f1187219"/>
+				<reportElement x="650" y="27" width="140" height="15" uuid="400adfa3-129b-4618-9a80-ee28f1187219"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item11}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="12" y="65" width="72" height="15" uuid="756d60d6-358e-45d4-b9ff-31a6de9d340f"/>
+				<reportElement x="13" y="65" width="72" height="15" uuid="756d60d6-358e-45d4-b9ff-31a6de9d340f"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[货物起运地址:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="84" y="65" width="276" height="15" uuid="688753b5-76dc-4af5-a945-9a95ab96b906"/>
+				<reportElement x="85" y="65" width="276" height="15" uuid="688753b5-76dc-4af5-a945-9a95ab96b906"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item12}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="12" y="105" width="72" height="15" uuid="e3306709-1ea9-4542-bf7d-fcfb653f32e3"/>
+				<reportElement x="13" y="105" width="72" height="15" uuid="e3306709-1ea9-4542-bf7d-fcfb653f32e3"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[货物到达地址:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="84" y="105" width="276" height="15" uuid="abf29bf9-85a6-48ab-8867-8a988684d7ac"/>
+				<reportElement x="85" y="105" width="276" height="15" uuid="abf29bf9-85a6-48ab-8867-8a988684d7ac"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item14}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="376" y="65" width="61" height="15" uuid="116ba045-b190-4f26-8a0d-77154c911cab"/>
+				<reportElement x="377" y="65" width="61" height="15" uuid="116ba045-b190-4f26-8a0d-77154c911cab"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[驾驶员地址:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="440" y="65" width="350" height="15" uuid="f52625af-1bb1-4a31-a446-d9960954d9f5"/>
+				<reportElement x="441" y="65" width="350" height="15" uuid="f52625af-1bb1-4a31-a446-d9960954d9f5"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item13}]]></textFieldExpression>
 			</textField>
 			<line>
-				<reportElement x="609" y="96" width="1" height="35" uuid="4453956f-2bd2-44dc-aa75-a620a4cbb68a"/>
+				<reportElement x="610" y="96" width="1" height="35" uuid="4453956f-2bd2-44dc-aa75-a620a4cbb68a"/>
 			</line>
 			<staticText>
-				<reportElement x="376" y="105" width="60" height="15" uuid="db4f7bb8-3dcf-4809-8d64-5c5edb0abfdc"/>
+				<reportElement x="377" y="105" width="60" height="15" uuid="db4f7bb8-3dcf-4809-8d64-5c5edb0abfdc"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[货物总价值:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="436" y="105" width="161" height="15" uuid="231582c7-63f9-4a25-a8ef-9b0b1b5809b6"/>
+				<reportElement x="437" y="105" width="161" height="15" uuid="231582c7-63f9-4a25-a8ef-9b0b1b5809b6"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item15}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="616" y="105" width="42" height="15" uuid="b0397071-7275-4fdc-800d-e387e0a1bdbd"/>
+				<reportElement x="617" y="105" width="42" height="15" uuid="b0397071-7275-4fdc-800d-e387e0a1bdbd"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[保险费:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="656" y="105" width="134" height="15" uuid="8994872e-273c-47d1-808c-28d97d6b2629"/>
+				<reportElement x="657" y="105" width="134" height="15" uuid="8994872e-273c-47d1-808c-28d97d6b2629"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item16}]]></textFieldExpression>
 			</textField>
 			<line>
-				<reportElement x="4" y="176" width="794" height="1" uuid="a8d288a8-93bc-45f7-939d-be0c1622d09a"/>
+				<reportElement x="5" y="176" width="794" height="1" uuid="a8d288a8-93bc-45f7-939d-be0c1622d09a"/>
 			</line>
 			<staticText>
-				<reportElement x="12" y="145" width="72" height="15" uuid="9de0dc2c-2c64-44a5-81c9-426842468d0d"/>
+				<reportElement x="13" y="145" width="72" height="15" uuid="9de0dc2c-2c64-44a5-81c9-426842468d0d"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[货物起运时间:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="84" y="145" width="276" height="15" uuid="868072c8-fe38-4528-9dff-0db4f5540f91"/>
+				<reportElement x="85" y="145" width="276" height="15" uuid="868072c8-fe38-4528-9dff-0db4f5540f91"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item17}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="376" y="145" width="71" height="15" uuid="16916695-b811-4b21-b9e1-f9b719fcf0bc"/>
+				<reportElement x="377" y="145" width="71" height="15" uuid="16916695-b811-4b21-b9e1-f9b719fcf0bc"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[货物到达时间:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="448" y="145" width="341" height="15" uuid="272ae8d9-4c5f-4e5e-86c0-120d0429fccc"/>
+				<reportElement x="449" y="145" width="341" height="15" uuid="272ae8d9-4c5f-4e5e-86c0-120d0429fccc"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item18}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="12" y="185" width="116" height="15" uuid="db7a4ee5-fda9-4100-b329-4a98fe4a370e"/>
+				<reportElement x="13" y="185" width="116" height="15" uuid="db7a4ee5-fda9-4100-b329-4a98fe4a370e"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[货物统计及车价:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="12" y="205" width="776" height="50" uuid="30d4a13d-de4d-4f50-b6dc-7a13289a5fc2"/>
+				<reportElement x="13" y="205" width="776" height="50" uuid="30d4a13d-de4d-4f50-b6dc-7a13289a5fc2"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item19}]]></textFieldExpression>
 			</textField>
 			<line>
-				<reportElement x="4" y="261" width="794" height="1" uuid="1efb697d-1465-4b1a-b165-6684aaf5d366"/>
+				<reportElement x="5" y="261" width="794" height="1" uuid="1efb697d-1465-4b1a-b165-6684aaf5d366"/>
 			</line>
 			<line>
-				<reportElement x="34" y="261" width="1" height="83" uuid="cec34335-9421-41d8-aaf7-869577da032d"/>
+				<reportElement x="35" y="261" width="1" height="83" uuid="cec34335-9421-41d8-aaf7-869577da032d"/>
 			</line>
 			<line>
-				<reportElement x="4" y="345" width="794" height="1" uuid="ce233629-c42d-4d3d-b720-8d857fd43978"/>
+				<reportElement x="5" y="345" width="794" height="1" uuid="ce233629-c42d-4d3d-b720-8d857fd43978"/>
 			</line>
 			<line>
-				<reportElement x="4" y="393" width="794" height="1" uuid="c6f57813-47e4-4724-ac0e-a2800238722c"/>
+				<reportElement x="5" y="393" width="794" height="1" uuid="c6f57813-47e4-4724-ac0e-a2800238722c"/>
 				<graphicElement>
 					<pen lineWidth="1.0"/>
 				</graphicElement>
 			</line>
 			<staticText>
-				<reportElement x="10" y="351" width="66" height="15" uuid="48f73b15-87ef-4a23-b526-e36faa192324"/>
+				<reportElement x="11" y="351" width="66" height="15" uuid="48f73b15-87ef-4a23-b526-e36faa192324"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[托运人(签字):]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="79" y="351" width="100" height="15" uuid="cac9b3e6-84db-45e7-80a6-f065eb364449"/>
+				<reportElement x="80" y="351" width="100" height="15" uuid="cac9b3e6-84db-45e7-80a6-f065eb364449"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item20}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="189" y="351" width="71" height="15" uuid="545a81ed-a0da-45dc-a099-335b577f171f"/>
+				<reportElement x="190" y="351" width="71" height="15" uuid="545a81ed-a0da-45dc-a099-335b577f171f"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[承运人(签字):]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="260" y="351" width="100" height="15" uuid="ed86a6ae-af62-4e7d-8698-ec6b95cc62bb"/>
+				<reportElement x="261" y="351" width="100" height="15" uuid="ed86a6ae-af62-4e7d-8698-ec6b95cc62bb"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item22}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="377" y="351" width="60" height="15" uuid="be462c49-fac5-46a9-8f02-ec5823ebef92"/>
+				<reportElement x="378" y="351" width="60" height="15" uuid="be462c49-fac5-46a9-8f02-ec5823ebef92"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[配货经办人:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="437" y="351" width="153" height="15" uuid="84b7255f-fc34-41d7-9155-68ff2db27c0a"/>
+				<reportElement x="438" y="351" width="153" height="15" uuid="84b7255f-fc34-41d7-9155-68ff2db27c0a"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item24}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="649" y="351" width="140" height="15" uuid="ca801339-c99e-453d-9057-7eff96d645af"/>
+				<reportElement x="650" y="351" width="140" height="15" uuid="ca801339-c99e-453d-9057-7eff96d645af"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item26}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="605" y="351" width="40" height="15" uuid="46eb7d6e-0297-40c3-ae0a-c48816e9b46d"/>
+				<reportElement x="606" y="351" width="40" height="15" uuid="46eb7d6e-0297-40c3-ae0a-c48816e9b46d"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[审核人:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="79" y="375" width="100" height="15" uuid="d2b350c5-603d-4c68-8a5e-4f9e7a21be4d"/>
+				<reportElement x="80" y="375" width="100" height="15" uuid="d2b350c5-603d-4c68-8a5e-4f9e7a21be4d"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item21}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="260" y="375" width="100" height="15" uuid="bebcc4b6-3279-4f0b-b4b0-9e395c8182bd"/>
+				<reportElement x="261" y="375" width="100" height="15" uuid="bebcc4b6-3279-4f0b-b4b0-9e395c8182bd"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item23}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="437" y="375" width="153" height="15" uuid="b204ed1b-d1c7-486c-a18a-451cdadace3f"/>
+				<reportElement x="438" y="375" width="153" height="15" uuid="b204ed1b-d1c7-486c-a18a-451cdadace3f"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item25}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="649" y="375" width="140" height="15" uuid="ddbd07dc-3387-47d4-9f79-0299d6c2f672"/>
+				<reportElement x="650" y="375" width="140" height="15" uuid="ddbd07dc-3387-47d4-9f79-0299d6c2f672"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item27}]]></textFieldExpression>
 			</textField>
 			<line>
-				<reportElement x="184" y="345" width="1" height="47" uuid="732c5cab-4dfc-467e-b96f-79a0bfc215ab"/>
+				<reportElement x="185" y="345" width="1" height="47" uuid="732c5cab-4dfc-467e-b96f-79a0bfc215ab"/>
 			</line>
 			<line>
-				<reportElement x="369" y="346" width="1" height="47" uuid="0562bc9d-0027-4fdc-a1e3-f24adeb05b72"/>
+				<reportElement x="370" y="346" width="1" height="47" uuid="0562bc9d-0027-4fdc-a1e3-f24adeb05b72"/>
 			</line>
 			<line>
-				<reportElement x="599" y="345" width="1" height="47" uuid="376eaa39-7f6b-4b18-941a-32e07ab591d6"/>
+				<reportElement x="600" y="345" width="1" height="47" uuid="376eaa39-7f6b-4b18-941a-32e07ab591d6"/>
 			</line>
 			<textField>
-				<reportElement x="53" y="401" width="228" height="15" uuid="be4d895e-44bc-4fa2-a83a-dbb5bd7ba587"/>
+				<reportElement x="54" y="401" width="228" height="15" uuid="be4d895e-44bc-4fa2-a83a-dbb5bd7ba587"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item28}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="5" y="423" width="415" height="19" uuid="1711e80c-5c58-43a9-9055-de6a3c73628b"/>
+				<reportElement x="6" y="423" width="415" height="19" uuid="1711e80c-5c58-43a9-9055-de6a3c73628b"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="12" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item29}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="430" y="430" width="66" height="15" uuid="bc9a68de-f14f-4c9e-9ffb-456dd69a59c7"/>
+				<reportElement x="431" y="430" width="66" height="15" uuid="bc9a68de-f14f-4c9e-9ffb-456dd69a59c7"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[副经理(签字):]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="499" y="430" width="100" height="15" uuid="5100d5ad-f6ec-4f8e-9522-0e63ae6ff110"/>
+				<reportElement x="500" y="430" width="100" height="15" uuid="5100d5ad-f6ec-4f8e-9522-0e63ae6ff110"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item30}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="609" y="430" width="61" height="15" uuid="c8dd8271-4a49-403a-83be-57eb3a3230f9"/>
+				<reportElement x="610" y="430" width="61" height="15" uuid="c8dd8271-4a49-403a-83be-57eb3a3230f9"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[经理(签字):]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="670" y="430" width="110" height="15" uuid="13ffe3f2-f8e6-45fa-94e6-98795b4a8e72"/>
+				<reportElement x="671" y="430" width="110" height="15" uuid="13ffe3f2-f8e6-45fa-94e6-98795b4a8e72"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item31}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="14" y="263" width="10" height="81" uuid="72b77343-eec5-420e-81b3-1e1b856eee7c"/>
+				<reportElement x="15" y="263" width="10" height="81" uuid="72b77343-eec5-420e-81b3-1e1b856eee7c"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[运输协议事项]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="43" y="263" width="743" height="33" uuid="72a8d56e-c5e1-4313-bdd4-851528f9bb45"/>
+				<reportElement x="44" y="263" width="743" height="33" uuid="72a8d56e-c5e1-4313-bdd4-851528f9bb45"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[一、承运人负责：精心爱护货物，防止货物损坏、丢失等，保证货物安全；将货物按正常时间安全运至目的地，运输途中过路费、过桥费及违章罚款的费用；若丢失、损坏货物，由承运人负责赔偿。    ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="43" y="289" width="743" height="19" uuid="ecdc6091-7bb4-493c-b236-1adfa0217eae"/>
+				<reportElement x="44" y="289" width="743" height="19" uuid="ecdc6091-7bb4-493c-b236-1adfa0217eae"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[二、托运人负责：所运货物属国家许可的运输范围；办理需办理的货运手续；承担货运手续不全，属国家禁运物资的罚款。]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="43" y="302" width="743" height="24" uuid="d4d7a8ca-f3ff-444d-83e3-05803c06bff1"/>
+				<reportElement x="44" y="302" width="743" height="24" uuid="d4d7a8ca-f3ff-444d-83e3-05803c06bff1"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[三、配货方只起中介介绍作用，不负法律责任，对运输过程中产生的纠纷，由车主与货主协商解决，协商未果的，交司法机关依法受理。    ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="43" y="315" width="743" height="19" uuid="3b5c26d1-251f-4522-a783-90ecc3030425"/>
+				<reportElement x="44" y="315" width="743" height="19" uuid="3b5c26d1-251f-4522-a783-90ecc3030425"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[四、结算方式现金，结算币种人民币。    ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="43" y="329" width="743" height="21" uuid="41538932-be1f-499c-a89e-a44af88aa806"/>
+				<reportElement x="44" y="329" width="743" height="21" uuid="41538932-be1f-499c-a89e-a44af88aa806"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[五、本协议一式四份，各执一份。托运人、承运人双方签字生效，双方要诚信合作，共同遵守。    ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="10" y="375" width="50" height="15" uuid="911f3d91-e7ab-43b8-a04f-9b671455c593"/>
+				<reportElement x="11" y="375" width="50" height="15" uuid="911f3d91-e7ab-43b8-a04f-9b671455c593"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[日期:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="190" y="375" width="66" height="15" uuid="876324cc-b1ef-4d1e-82c0-fa4f6ba4a45f"/>
+				<reportElement x="191" y="375" width="66" height="15" uuid="876324cc-b1ef-4d1e-82c0-fa4f6ba4a45f"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[日期:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="607" y="375" width="39" height="15" uuid="7fbd4530-c9f8-4058-8679-a4fe16371ca1"/>
+				<reportElement x="608" y="375" width="39" height="15" uuid="7fbd4530-c9f8-4058-8679-a4fe16371ca1"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[日期:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="375" y="375" width="50" height="15" uuid="ac9b65d9-1517-4a90-9a0d-ce6625863444"/>
+				<reportElement x="376" y="375" width="50" height="15" uuid="ac9b65d9-1517-4a90-9a0d-ce6625863444"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[日期:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="10" y="401" width="40" height="15" uuid="3f80aa5d-bd28-41e6-b66b-9e18736b9c56"/>
+				<reportElement x="11" y="401" width="40" height="15" uuid="3f80aa5d-bd28-41e6-b66b-9e18736b9c56"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[电话:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="286" y="402" width="34" height="15" uuid="3cee8f05-e540-4c44-9a3f-a0bcfb44df1d"/>
+				<reportElement x="287" y="402" width="34" height="15" uuid="3cee8f05-e540-4c44-9a3f-a0bcfb44df1d"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[传真:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="336" y="402" width="174" height="15" uuid="475c2af1-f520-45bc-bdeb-bad6b451726d"/>
+				<reportElement x="337" y="402" width="174" height="15" uuid="475c2af1-f520-45bc-bdeb-bad6b451726d"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{item281}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="517" y="402" width="50" height="15" uuid="3ae96ea3-ebcb-4b18-b1ee-bdda6aadd644"/>
+				<reportElement x="518" y="402" width="50" height="15" uuid="3ae96ea3-ebcb-4b18-b1ee-bdda6aadd644"/>
 				<textElement textAlignment="Left">
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>
 				<text><![CDATA[手机:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="567" y="402" width="228" height="15" uuid="d18a01de-ec2b-4298-a9f1-79972fed23c0"/>
+				<reportElement x="568" y="402" width="228" height="15" uuid="d18a01de-ec2b-4298-a9f1-79972fed23c0"/>
 				<textElement>
 					<font fontName="Microsoft YaHei" size="10"/>
 				</textElement>

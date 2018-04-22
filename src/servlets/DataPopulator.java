@@ -65,7 +65,7 @@ public class DataPopulator {
 	public static Map<String, Object> populate(String url) {
 		url = "http://localhost:8080/onemap/api/usertransaction/id/" + url;
 		Map<String, Object> map = new HashMap<>();
-		map.put("itme0", "http://47.104.158.49/images/kaida56_logo.png");
+		map.put("itme0", "https://tongdagufen.cn/images/kaida56_logo.png");
 		map.put("item1", "山 东 凯 达 物 流 有 限 公 司");
 		map.put("item2", "货 物 运 输 协 议 书");
 		
